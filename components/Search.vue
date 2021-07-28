@@ -223,7 +223,9 @@ export default {
 }
 </script>
 <style lang="scss">
-
+@import "~vuetify/src/components/VDataTable/VSimpleTable";
+@import "~vuetify/src/components/VPagination/VPagination";
+@import "~vuetify/src/components/VDialog/VDialog";
 
 .ais {
   &-InstantSearch {
